@@ -26,7 +26,7 @@ function preload() {
         location.hostname === "localhost" || location.hostname === "127.0.0.1";
     const baseUrl = isLocalHost
         ? ".."
-        : "https://leo90012.github.io/doodlerjumping/";
+        : "https://hop.adazilla.net/";
     Doodler.leftImage = loadImage(baseUrl + "/assets/img/doodler_left.png");
     Doodler.rightImage = loadImage(baseUrl + "/assets/img/doodler_right.png");
     Platform.springImage = loadImage(baseUrl + "/assets/img/spring.png");
