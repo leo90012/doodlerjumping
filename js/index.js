@@ -175,7 +175,12 @@ function updatePlatforms() {
 
 
 function keyPressed() {
-    if (isOver) return;
+   if (isOver){
+        if (key === 'R' || key === 'r') {
+            location.reload();
+        }
+        return;
+    }
     if (
         (keyCode === LEFT_ARROW || keyCode === 65) &&
         doodler.vx !== -Doodler.speed
@@ -321,6 +326,7 @@ function drawDead() {
     if (!platforms.length && !blackhole) {
         textAlign(CENTER);
         text("Game Over!", width / 2, height / 2 - 20);
+        text("Press R to restart", width / 2, height / 2 + 20);
 
     } else if (!isBlackholed) {
    
