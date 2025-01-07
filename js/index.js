@@ -287,7 +287,7 @@ function drawScore() {
     textStyle(ITALIC);
     fill(3, 26, 125);
     textAlign(CENTER);
-    text("adazilla.net", width / 2, height - margin);
+    text("shizomatt.com", width / 2, height - margin);
 
 }
 
