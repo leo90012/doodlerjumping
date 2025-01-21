@@ -284,7 +284,7 @@ function drawScore() {
     textFont(mynerveFont);
     text(scoreStr, width - strWidth - margin, margin + fontSize);
 
-    textStyle(ITALIC);
+    textStyle(Arial);
     fill(3, 26, 125);
     textAlign(CENTER);
     text("danthedegen.com", width / 2, height - margin);
